@@ -1,0 +1,36 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "access_control",
+            "name": "core-administrator_role",
+            "parameters": {}
+        },
+        {
+            "category": "access_control",
+            "name": "core-contract_access",
+            "parameters": {}
+        },
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "symbol": "UWM",
+                "name": "Universal World Money",
+                "decimals": "18",
+                "supply": "33000000"
+            }
+        },
+        {
+            "category": "nft",
+            "name": "core-custom_nft",
+            "parameters": {
+                "template": "collectible"
+            }
+        }
+    ],
+    "blockchain": "conflux",
+    "language": "solidity",
+    "framework": "vanilla"
+}
